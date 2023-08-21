@@ -1,5 +1,8 @@
 # dis-code-or-no-code
 
+Dataset: [Taxi trip data NYC](https://www.kaggle.com/datasets/anandaramg/taxi-trip-data-nyc)
+
+
 - 20 mins intro
 - 30 mins no code practical
 - 30 mins code practical
