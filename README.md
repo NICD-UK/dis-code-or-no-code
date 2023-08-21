@@ -7,6 +7,17 @@
 
 ## 20 mins intro talk
 
+With both examples we will carry out like for like tasks in Excel and with python.
+
+- Filling in missing values
+- Removing incorrect values
+- Formatting dates
+- Filtering data
+- Producing summary statistics
+- Transformation of data
+- (Resampling etc monthly totals)
+
+
 - Introduction to tabular data
 - No code tools for handling data
   - Excel/Google Sheets
@@ -16,6 +27,11 @@
   - Python
   - R
   - Other
+
+Tasks
+- [ ] Create 10 spreadsheets containing initial data
+- [ ] Littlest jupyter hub setup - 1 VM
+- [ ] 
 
 
 
