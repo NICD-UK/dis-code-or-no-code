@@ -90,7 +90,7 @@ Notice that there are some rows which have a duration or trip distance of zero, 
 - Sort by pickup time in descending order
 - Delete rows after July 2021
 
-## Find hourly totals
+## Find hourly means
 
 ### 1. Create a column
 
