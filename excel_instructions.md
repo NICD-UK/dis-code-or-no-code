@@ -82,3 +82,41 @@ Notice that there are some rows which have a duration or trip distance of zero, 
 
 - Repeat step 1 above, this time for the `speed` column and using `Sort Descending`
 - Repeat step 2 above, this time select the last row with a value greater than `100`
+
+### 5 Remove values outside July 2021
+
+- Sort by pickup time in ascending order
+- Delete rows before July 2021
+- Sort by pickup time in descending order
+- Delete rows after July 2021
+
+## Find hourly totals
+
+### 1. Create a column
+
+- Create a new column after dropoff called `hour`
+- Add the formula `=HOUR(B2)`
+- Copy the formula down
+- Change the `Number Format` of the column to `Number` and change the number of decimal places to `0`
+
+### 2. Create a pivot table
+
+- Select the `Insert` tab
+- Click `PivotTable`
+- Click `+ New sheet`
+
+### 3. Select PivotTable fields
+
+- Drag `hour` to `Rows`
+- Drag `duration` to `Values`
+- Click the dropdown arrow next to `Sum of duration`
+- Click `Value Field Settings`
+- Click `Average`
+- Click `OK`
+- Add average speed and distance to `Values` (as above)
+
+### 4. Create a plot of speed and distance
+
+- Select the `Insert` tab
+- Click the Line chart icon ![](img/line_chart.png)
+- Double-click on the chart to adjust settings
