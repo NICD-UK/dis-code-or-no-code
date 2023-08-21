@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dis-code-or-no-code"
+version = "0.1.0"
+description = ""
+authors = ["Fergus McClean <fergus.mcclean@ncl.ac.uk>"]
+readme = "README.md"
+packages = [{include = "dis_code_or_no_code"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.3"
+jupyter = "^1.0.0"
+matplotlib = "^3.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
