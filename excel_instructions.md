@@ -5,7 +5,7 @@
 ### 1. Add a new column called "duration"
 
 - Right-click the column that you want to insert a new column before. In this case, column `D`.
-- Click `insert`
+- Click `Insert Columns`
 - Click inside the top cell of the new column
 - Type `duration` and press `Enter`
 
@@ -22,7 +22,7 @@
 
 ### 3. Change the format of the column
 - Right-click the `duration` column (column `D`)
-- Click `Format cells`
+- Click `Number Format...`
 - Select `Number`
 - Click `OK`
 
@@ -36,7 +36,7 @@
 ### 1. Add a new column called "speed"
 
 - Right-click the column that you want to insert a new column before. In this case, column `E`.
-- Click `insert`
+- Click `Insert Columns`
 - Click inside the top cell of the new column
 - Type `speed` and press `Enter`
 
@@ -64,7 +64,7 @@ Notice that there are some rows which have a duration or trip distance of zero, 
 
 - Right-click on the `duration` column name
 - Hover over the `Sort` option
-- Click `Sort A to Z`
+- Click `Sort Ascending`
 
 ### 2. Delete rows with zero duration
 
@@ -72,7 +72,7 @@ Notice that there are some rows which have a duration or trip distance of zero, 
 - Hold down `Shift`
 - Select the last row with a value of zero
 - Right click on the selected rows
-- Click `Delete`
+- Click `Delete Rows`
 
 ### 3. Repeat for trip distance
 
@@ -80,5 +80,5 @@ Notice that there are some rows which have a duration or trip distance of zero, 
 
 ### 4. Remove high speed trips
 
-- Repeat step 1 above, this time for the `speed` column and using `Sort Z to A`
+- Repeat step 1 above, this time for the `speed` column and using `Sort Descending`
 - Repeat step 2 above, this time select the last row with a value greater than `100`
