@@ -51,7 +51,34 @@
 > There are 60 minutes in an hour
 - Press `Enter`
 
+### 3. Copy the formula down
+
+- Click on the first value in the `speed` column
+- Double-click on the small square in the bottom right corner of the cell
+
 ## Clean the data
 
-- Durations of zero or distances of zero 
-- Speeds of greated than 100mph
+Notice that there are some rows which have a duration or trip distance of zero, and some with a speed of over 100 mph. These are probably not real trips so we can remove them from the dataset to prevent them affecting any later analysis. 
+
+### 1. Sort by duration
+
+- Right-click on the `duration` column name
+- Hover over the `Sort` option
+- Click `Sort A to Z`
+
+### 2. Delete rows with zero duration
+
+- Select the first row
+- Hold down `Shift`
+- Select the last row with a value of zero
+- Right click on the selected rows
+- Click `Delete`
+
+### 3. Repeat for trip distance
+
+- Repeat steps 1 and 2 above, this time for the `trip_distance` column
+
+### 4. Remove high speed trips
+
+- Repeat step 1 above, this time for the `speed` column and using `Sort Z to A`
+- Repeat step 2 above, this time select the last row with a value greater than `100`
