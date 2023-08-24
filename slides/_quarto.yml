@@ -1,0 +1,11 @@
+format: 
+    revealjs:
+        theme: theme.scss
+        css: [fonts.css, style.css]
+        slide-number: true
+        logo: img/logo.png
+        code-overflow: wrap
+        # Uncomment if you want the slide content centered
+        center: true
+        # Uncomment if you want the html file to be self contained
+        # self-contained: true 

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Derailed';
+    src: url("fonts/derailed-regular-webfont.woff2")
+}
+
+@font-face {
+    font-family: 'Derailed';
+    font-weight: bold;
+    src: url("fonts/derailed-bold-webfont.woff2")
+}
+
+@font-face {
+    font-family: 'Derailed';
+    font-weight: 800;
+    src: url("fonts/derailed-extrabold-webfont.woff2")
+}

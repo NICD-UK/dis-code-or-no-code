@@ -1,0 +1,47 @@
+---
+title: To Code or Not to Code
+subtitle: A data journey
+author: Stephen Dowsland
+date: 28 September 2022
+institute: National Innovation Centre for Data
+---
+
+## What is code?
+- A set of instructions
+- Usually in scripts
+- Written using a programming language
+
+## What is no-code?
+- A graphical user interface
+- Point and click
+- Drag and drop
+
+## What is low-code?
+- A combination of code and no-code
+- Most no-code tools allow code (Excel)
+- No-code and low-code can be interchangeable
+
+## Slido
+
+![](img/qr.png)
+
+slido.com
+#to-code
+
+## What tools do you use?
+
+<iframe width="1050" height="600" src="https://app.sli.do/event/tJ8qTVJwo2tGcoXXwAVQNd/embed/polls/b9410bb2-4d95-413b-ab8b-1869c6e3cc37"></iframe>
+
+
+## How do you feel about code?
+
+<iframe width="1050" height="600" src="https://app.sli.do/event/tJ8qTVJwo2tGcoXXwAVQNd/embed/polls/f598ca26-03dc-40e9-8d65-7b5dc62fac2d"></iframe>
+
+
+## How to choose?
+
+- Development speed
+- Skills
+- Flexibility
+- Pricing
+

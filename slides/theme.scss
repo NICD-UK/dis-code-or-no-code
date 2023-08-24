@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+
+// https://quarto.org/docs/presentations/revealjs/themes.html#sass-variables
+
+$font-family-sans-serif: 'Derailed', sans-serif;
+
+$presentation-heading-color: #4FE18F;
+$presentation-font-size-root: 30px;
+$presentation-heading-font-weight: 800;
+$presentation-title-slide-text-align: "left";
+$code-block-font-size: 0.6em;
+
+/*-- scss:rules --*/
+
+// These sizes are appropriate for NICD secondary logo landscape
+.reveal .slide-logo {
+    height: 72px !important;
+    width: 210px !important;
+    max-width: unset !important;
+    max-height: unset !important;
+}
+
