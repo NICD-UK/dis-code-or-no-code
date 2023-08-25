@@ -40,8 +40,35 @@ slido.com
 
 ## How to choose?
 
-- Development speed
 - Skills
+- Development speed
 - Flexibility
 - Pricing
+
+## Skills
+:::{layout-ncol="2"}
+# Code
+- Slower to get started
+- Less platform-specific
+- More transferable
+
+# No/low-code
+- Faster to get started
+- More platform-specific
+- Less transferable
+:::
+
+
+## Development speed
+
+- No/low-code is faster
+- Deploying code requires work
+- Speed depends on skills
+
+## Flexibility
+
+- Code wins
+- No/low-code has limits
+- Integrations and design
+
 
