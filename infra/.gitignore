@@ -1,0 +1,11 @@
+terraform.tfstate
+terraform.tfstate.backup
+inventory.json
+.terraform.lock.hcl
+inventory.ini
+**/.terraform*
+__pycache__
+*.zip
+venv
+.python-version
+secret.auto.tfvars

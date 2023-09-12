@@ -35,5 +35,6 @@ Tasks
 - [ ] Create 10 spreadsheets containing initial data
 - [ ] Littlest jupyter hub setup - 1 VM
   - [Set default markdown viewer to preview](https://github.com/jupyterlab/jupyterlab/issues/6442)
+  - [Setting New Default JupyterLab Settings](https://tljh.jupyter.org/en/latest/howto/user-env/override-lab-settings.html)
 
 

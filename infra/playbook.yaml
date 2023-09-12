@@ -1,0 +1,59 @@
+---
+ - name: Playbook to install Littlest JuypyterHub
+   become: true
+   hosts: 
+    - vms
+   tasks: 
+    - name: Install dependencies
+      apt:
+        update_cache: true
+        state: present
+        pkg:
+         - python3 
+         - python3-dev
+         - git
+         - curl
+         - unzip
+    - name: "Get the install script"
+      get_url:
+        url: https://tljh.jupyter.org/bootstrap.py
+        dest: /home/adminuser/bootstrap.py
+      become: false
+    - name: "Run bootstrap"
+      ansible.builtin.shell: 
+        python3 /home/adminuser/bootstrap.py \
+        --admin user01:tocodedisworkshop \
+        --admin user02:tocodedisworkshop \
+        --admin user03:tocodedisworkshop \
+        --admin user04:tocodedisworkshop \
+        --admin user05:tocodedisworkshop
+
+      args:
+        creates: /etc/systemd/system/jupyterhub.service
+    
+    - name: "Enable HTTPS"
+      ansible.builtin.shell:
+        sudo tljh-config set https.enabled true &&
+        sudo tljh-config set https.letsencrypt.email {{ email }} &&
+        sudo tljh-config add-item https.letsencrypt.domains {{ hostname }} &&
+        sudo tljh-config reload proxy
+
+    - name: "Install packages"
+      ansible.builtin.shell: /opt/tljh/user/bin/pip install pandas matplotlib
+
+    - name: "Create directory for custom settings"
+      ansible.builtin.shell: sudo mkdir -p /opt/tljh/user/share/jupyter/lab/settings
+
+    - name: Upload custom settings
+      ansible.builtin.copy:
+        src: overrides.json
+        dest: /opt/tljh/user/share/jupyter/lab/settings/overrides.json
+
+    - name: Reload configuration
+      ansible.builtin.shell: sudo tljh-config reload
+
+    - name: Upload data
+      ansible.builtin.unarchive:
+        src: upload.zip
+        dest: /etc/skel
+        creates: /etc/skel/python.ipynb
