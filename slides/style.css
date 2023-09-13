@@ -1,2 +1,9 @@
 /* Add your custom CSS styles here - CSS will auto-reload, SCSS will not */
 
+.good {
+    background-color: #dbffd9
+}
+
+.bad {
+    background-color: #ffd9d9
+}

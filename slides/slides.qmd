@@ -6,21 +6,6 @@ date: 28 September 2022
 institute: National Innovation Centre for Data
 ---
 
-## What is code?
-- A set of instructions
-- Usually in scripts
-- Written using a programming language
-
-## What is no-code?
-- A graphical user interface
-- Point and click
-- Drag and drop
-
-## What is low-code?
-- A combination of code and no-code
-- Most no-code tools allow code (Excel)
-- No-code and low-code can be interchangeable
-
 ## Slido
 
 ![](img/qr.png)
@@ -28,47 +13,82 @@ institute: National Innovation Centre for Data
 slido.com
 #to-code
 
-## What tools do you use?
-
-<iframe width="1050" height="600" src="https://app.sli.do/event/tJ8qTVJwo2tGcoXXwAVQNd/embed/polls/b9410bb2-4d95-413b-ab8b-1869c6e3cc37"></iframe>
-
+## What is code?
+- A set of instructions
+- Usually in scripts
+- Written using a programming language
 
 ## How do you feel about code?
 
 <iframe width="1050" height="600" src="https://app.sli.do/event/tJ8qTVJwo2tGcoXXwAVQNd/embed/polls/f598ca26-03dc-40e9-8d65-7b5dc62fac2d"></iframe>
 
+## What is no-code?
+- A graphical user interface
+- Point and click
+- Drag and drop
+
+## How do you feel about no-code?
+
+<iframe width="1050" height="600" src="https://app.sli.do/event/tJ8qTVJwo2tGcoXXwAVQNd/embed/polls/f598ca26-03dc-40e9-8d65-7b5dc62fac2d"></iframe>
+
+## What is low-code?
+- A combination of code and no-code
+- Most no-code tools allow code (Excel)
+- No-code and low-code can be interchangeable
 
 ## How to choose?
 
 - Skills
 - Development speed
 - Flexibility
-- Pricing
 
 ## Skills
 :::{layout-ncol="2"}
 # Code
-- Slower to get started
-- Less platform-specific
-- More transferable
+- <span class="bad">Slower to get started</span>
+- <span class="good">Less platform-specific</span>
+- <span class="good">More transferable</span>
 
 # No/low-code
-- Faster to get started
-- More platform-specific
-- Less transferable
+- <span class="good">Faster to get started</span>
+- <span class="bad">More platform-specific</span>
+- <span class="bad">Less transferable</span>
 :::
 
-
 ## Development speed
+:::{layout-ncol="2"}
+# Code
+- <span class="bad">Slower to develop</span>
+- <span class="bad">Slower to train developers</span>
+- <span class="bad">Deployment not included</span>
 
-- No/low-code is faster
-- Deploying code requires work
-- Speed depends on skills
+# No/low-code
+- <span class="good">Faster to develop</span>
+- <span class="good">Faster to train developers</span>
+- <span class="good">Deployment is included</span>
+:::
 
 ## Flexibility
+:::{layout-ncol="2"}
+# Code
+- <span class="good">Unlimited functionality</span>
+- <span class="good">Unlimited design</span>
+- <span class="good">Unlimited integration</span>
 
-- Code wins
-- No/low-code has limits
-- Integrations and design
+# No/low-code
+- <span class="bad">Limited functionality</span>
+- <span class="bad">Limited design</span>   
+- <span class="bad">Limited integration</span>
+:::
+## Other things to consider
 
+- **Reproducability**
+- Scalability
+- Versioning
+- Collaboration
+- Integration
+- Pricing
 
+## What tools do you use?
+
+<iframe width="1050" height="600" src="https://app.sli.do/event/tJ8qTVJwo2tGcoXXwAVQNd/embed/polls/b9410bb2-4d95-413b-ab8b-1869c6e3cc37"></iframe>
