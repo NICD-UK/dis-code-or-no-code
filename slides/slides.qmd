@@ -135,6 +135,11 @@ pd.read_csv('../taxi_tripdata.csv').head(10).to_html(index=False)
 
 # Demo
 
+## Connecting to Excel
+
+https://tinyurl.com/to-code-1
+https://tinyurl.com/dis-to-code-2
+
 ## Connecting to Jupyter
 
 - User accounts
