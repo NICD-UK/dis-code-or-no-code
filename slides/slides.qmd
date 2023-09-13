@@ -6,6 +6,13 @@ date: 28 September 2022
 institute: National Innovation Centre for Data
 ---
 
+## Overview
+
+- Intro (20 mins)
+- Low-code practical (30 mins)
+- Code practical (30 mins)
+- Wrap-up and next steps (10 mins)
+
 ## Slido
 
 ![](img/qr.png)
@@ -14,16 +21,16 @@ slido.com
 #to-code
 
 ## What is code?
-- A set of instructions
-- Usually in scripts
-- Written using a programming language
+- A set of **instructions**
+- Usually in **scripts**
+- Written using a programming **language**
 
 ## How do you feel about code?
 
 <iframe width="1050" height="600" src="https://app.sli.do/event/tJ8qTVJwo2tGcoXXwAVQNd/embed/polls/f598ca26-03dc-40e9-8d65-7b5dc62fac2d"></iframe>
 
 ## What is no-code?
-- A graphical user interface
+- A **graphical** user interface
 - Point and click
 - Drag and drop
 
@@ -32,7 +39,7 @@ slido.com
 <iframe width="1050" height="600" src="https://app.sli.do/event/tJ8qTVJwo2tGcoXXwAVQNd/embed/polls/19e87f62-c814-461b-abb8-9d69f53b0c3d"></iframe>
 
 ## What is low-code?
-- A combination of code and no-code
+- A combination of **code** and **no-code**
 - Most no-code tools allow code (Excel)
 - No-code and low-code can be interchangeable
 
@@ -134,9 +141,9 @@ pd.read_csv('../taxi_tripdata.csv').head(10).to_html(index=False)
 
 ## Next steps and wrap up
 
-- Are you using the most appropriate tools?
-- Are there opportunities for using code instead of low-code?
-- Do a Data Skills project with us
+- Are you using the most appropriate tools? :hammer_and_wrench:
+- Opportunities for using code? :door: 
+- Do a Data Skills project with us :mortar_board:
 
 ## Thanks!
 
