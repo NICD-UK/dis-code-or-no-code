@@ -32,9 +32,10 @@ With both examples we will carry out like for like tasks in Excel and with pytho
   - Other
 
 Tasks
-- [ ] Create 10 spreadsheets containing initial data
+- [ ] Create spreadsheets containing initial data
 - [x] Littlest jupyter hub setup - 1 VM
   - [Set default markdown viewer to preview](https://github.com/jupyterlab/jupyterlab/issues/6442)
   - [Setting New Default JupyterLab Settings](https://tljh.jupyter.org/en/latest/howto/user-env/override-lab-settings.html)
+- [ ] Things to do if people complete the main task
 
 
