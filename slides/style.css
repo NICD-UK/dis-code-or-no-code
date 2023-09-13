@@ -7,3 +7,12 @@
 .bad {
     background-color: #ffd9d9
 }
+
+.dataframe {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.dataframe th {
+    font-size: 14px;
+}

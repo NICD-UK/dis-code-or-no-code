@@ -45,40 +45,40 @@ slido.com
 ## Skills
 :::{layout-ncol="2"}
 # Code
-- <span class="bad">Slower to get started</span>
-- <span class="good">Less platform-specific</span>
-- <span class="good">More transferable</span>
+- [Slower to get started]{.bad}
+- [Less platform-specific]{.good}
+- [More transferable]{.good}
 
 # No/low-code
-- <span class="good">Faster to get started</span>
-- <span class="bad">More platform-specific</span>
-- <span class="bad">Less transferable</span>
+- [Faster to get started]{.good}
+- [More platform-specific]{.bad}
+- [Less transferable]{.bad}
 :::
 
 ## Development speed
 :::{layout-ncol="2"}
 # Code
-- <span class="bad">Slower to develop</span>
-- <span class="bad">Slower to train developers</span>
-- <span class="bad">Deployment not included</span>
+- [Slower to develop]{.bad}
+- [Slower to train developers]{.bad}
+- [Deployment not included]{.bad}
 
 # No/low-code
-- <span class="good">Faster to develop</span>
-- <span class="good">Faster to train developers</span>
-- <span class="good">Deployment is included</span>
+- [Faster to develop]{.good}
+- [Faster to train developers]{.good}
+- [Deployment is included]{.good}
 :::
 
 ## Flexibility
 :::{layout-ncol="2"}
 # Code
-- <span class="good">Unlimited functionality</span>
-- <span class="good">Unlimited design</span>
-- <span class="good">Unlimited integration</span>
+- [Unlimited functionality]{.good}
+- [Unlimited design]{.good}
+- [Unlimited integration]{.good}
 
 # No/low-code
-- <span class="bad">Limited functionality</span>
-- <span class="bad">Limited design</span>   
-- <span class="bad">Limited integration</span>
+- [Limited functionality]{.bad}
+- [Limited design]{.bad}
+- [Limited integration]{.bad}
 :::
 ## Other things to consider
 
@@ -92,3 +92,52 @@ slido.com
 ## What tools do you use?
 
 <iframe width="1050" height="600" src="https://app.sli.do/event/tJ8qTVJwo2tGcoXXwAVQNd/embed/polls/b9410bb2-4d95-413b-ab8b-1869c6e3cc37"></iframe>
+
+## Tools we will use today
+
+- **Excel** (low-code)
+- **Python** (code)
+  - pandas 
+  - matplotlib
+
+## Excel (low-code)
+
+- Spreadsheets
+- Web-enabled
+- Visalisation and analysis
+
+## Python, pandas, and matplotlib (code)
+
+- **Python** is a programming language
+- **Pandas** for data analysis and manipulation
+- **Matplotlib** for visualisation
+
+## The data
+[Taxi trip data NYC](https://www.kaggle.com/datasets/anandaramg/taxi-trip-data-nyc)
+
+*Anandaram Ganapathi*
+
+```{python}
+import pandas as pd
+pd.read_csv('../taxi_tripdata.csv').head(10).to_html(index=False)
+```
+
+## The task
+
+> Visualise trip speed, distance, and duration by hour of the day
+
+# Demo
+
+## Connecting to Jupyter
+
+- User accounts
+
+## Next steps and wrap up
+
+- Are you using the most appropriate tools?
+- Are there opportunities for using code instead of low-code?
+- Do a Data Skills project with us
+
+## Thanks!
+
+Enjoy the rest of the conference! :smiley:
