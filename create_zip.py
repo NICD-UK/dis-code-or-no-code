@@ -6,3 +6,4 @@ with ZipFile('./infra/upload.zip', 'w') as zip:
    zip.write('python.ipynb')
    zip.write('taxi_tripdata.csv')
    zip.write('excel_instructions.md')
+   zip.write('trip_data_dictionary.pdf')
