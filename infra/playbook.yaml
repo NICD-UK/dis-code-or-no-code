@@ -22,11 +22,61 @@
     - name: "Run bootstrap"
       ansible.builtin.shell: 
         python3 /home/adminuser/bootstrap.py \
-        --admin user01:tocodedisworkshop \
-        --admin user02:tocodedisworkshop \
-        --admin user03:tocodedisworkshop \
-        --admin user04:tocodedisworkshop \
-        --admin user05:tocodedisworkshop
+        --admin fergus:tocodedisworkshop \
+        --admin stephen:tocodedisworkshop \
+        --admin matt:tocodedisworkshop \
+        \
+        --admin frazer:tocodedisworkshop \
+        --admin spinoza:tocodedisworkshop \
+        --admin mikael:tocodedisworkshop \
+        --admin will:tocodedisworkshop \
+        --admin nick-beno:tocodedisworkshop \
+        --admin miles:tocodedisworkshop \
+        --admin irene:tocodedisworkshop \
+        --admin paul:tocodedisworkshop \
+        --admin ameer-mahmood:tocodedisworkshop \
+        --admin stanislav:tocodedisworkshop \
+        --admin amanda:tocodedisworkshop \
+        --admin kevin:tocodedisworkshop \
+        --admin birju:tocodedisworkshop \
+        --admin steven-brewer:tocodedisworkshop \
+        --admin naksatra:tocodedisworkshop \
+        --admin dorathy-yuan-jane:tocodedisworkshop \
+        --admin james:tocodedisworkshop \
+        --admin hugh:tocodedisworkshop \
+        \
+        --admin steven-ziolkowski:tocodedisworkshop \
+        --admin nick-lamb:tocodedisworkshop \
+        --admin emmalee:tocodedisworkshop \
+        --admin mohammad:tocodedisworkshop \
+        --admin richard:tocodedisworkshop \
+        --admin robert:tocodedisworkshop \
+        --admin andrew-ambrose-thurman:tocodedisworkshop \
+        --admin ross:tocodedisworkshop \
+        --admin max:tocodedisworkshop \
+        --admin daniel-drummond:tocodedisworkshop \
+        --admin lewis:tocodedisworkshop \
+        --admin prajna:tocodedisworkshop \
+        --admin mukilan:tocodedisworkshop \
+        --admin jonathan:tocodedisworkshop \
+        --admin olivia:tocodedisworkshop \
+        --admin inken:tocodedisworkshop \
+        --admin jack:tocodedisworkshop \
+        --admin al:tocodedisworkshop \
+        --admin shelley:tocodedisworkshop \
+        --admin daniel-routledge:tocodedisworkshop \
+        --admin veronika:tocodedisworkshop \
+        --admin george:tocodedisworkshop \
+        --admin ather:tocodedisworkshop \
+        --admin mark:tocodedisworkshop \
+        --admin andrew-besford:tocodedisworkshop \
+        --admin chioma:tocodedisworkshop \
+        --admin marie:tocodedisworkshop \
+        --admin david:tocodedisworkshop \
+        --admin monika:tocodedisworkshop \
+        --admin ben:tocodedisworkshop \
+        --admin ahood:tocodedisworkshop \
+        --admin shruti:tocodedisworkshop
 
       args:
         creates: /etc/systemd/system/jupyterhub.service

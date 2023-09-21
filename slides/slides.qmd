@@ -140,9 +140,92 @@ pd.read_csv('../taxi_tripdata.csv').head(10).to_html(index=False)
 https://tinyurl.com/to-code-1
 https://tinyurl.com/dis-to-code-2
 
-## Connecting to Jupyter
+## Connecting to Jupyter (1) {.smaller}
 
-- User accounts
+- tocode.nicd.app
+
+### Password 
+- tocodedisworkshop
+
+### Usernames
+:::{layout-ncol="3"}
+#
+- frazer
+- spinoza
+- mikael
+- will
+- nick-beno
+- miles
+
+#
+- irene
+- paul
+- ameer-mahmood
+- stanislav
+- amanda
+- kevin
+
+#
+- birju
+- steven-brewer
+- naksatra
+- dorathy-yuan-jane
+- james
+- hugh
+
+:::
+
+## Connecting to Jupyter (2) {.smaller}
+
+- tocode.nicd.app
+
+### Password 
+- tocodedisworkshop
+
+### Usernames
+:::{layout-ncol="4"}
+#
+- steven-ziolkowski
+- nick-lamb
+- emmalee
+- mohammad
+- richard
+- robert
+- andrew-ambrose-thurman
+- ross
+
+#
+- max
+- daniel-drummond
+- lewis
+- prajna
+- mukilan
+- jonathan
+- olivia
+- inken
+
+#
+- jack
+- al
+- shelley
+- daniel-routledge
+- veronika
+- george
+- ather
+- mark
+
+#
+- andrew-besford
+- chioma
+- marie
+- david
+- monika
+- ben
+- ahood
+- shruti
+
+:::
+
 
 ## Next steps and wrap up
 
