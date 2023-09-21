@@ -1,7 +1,7 @@
 locals {
   location = "UK South"
   rg_name  = "dis-2023"
-  size = "Standard_B4ms"
+  size = "Standard_D16s_v5"
   vm_name = "tocode"
   username = "adminuser"
 }
