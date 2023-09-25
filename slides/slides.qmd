@@ -111,7 +111,7 @@ slido.com
 
 - Spreadsheets
 - Web-enabled
-- Visalisation and analysis
+- Visualisation and analysis
 
 ## Python, pandas, and matplotlib (code)
 
@@ -135,10 +135,13 @@ pd.read_csv('../taxi_tripdata.csv').head(10).to_html(index=False)
 
 # Demo
 
-## Connecting to Excel
+## Connecting to Excel: Session 1
 
-https://tinyurl.com/to-code-1
-https://tinyurl.com/dis-to-code-2
+https://tinyurl.com/to-code-one
+
+
+## Connecting to Excel: Session 2
+https://tinyurl.com/to-code-two
 
 ## Connecting to Jupyter (1) {.smaller}
 
@@ -185,44 +188,45 @@ https://tinyurl.com/dis-to-code-2
 ### Usernames
 :::{layout-ncol="4"}
 #
-- steven-ziolkowski
-- nick-lamb
+- al
+- ahood
+- andrew-ambrose-thurman
+- andrew-besford
+- ather
+- ben
+- chioma
+- daniel-drummond
+- daniel-routledge
+
+#
+- david
 - emmalee
+- george
+- inken
+- jack
+- jonathan
+- lewis
+- marie
+- mark
+- max
+
+#
 - mohammad
+- monika
+- mukilan
+- nick-lamb
+- olivia
+- prajna
 - richard
 - robert
-- andrew-ambrose-thurman
 - ross
-
-#
-- max
-- daniel-drummond
-- lewis
-- prajna
-- mukilan
-- jonathan
-- olivia
-- inken
-
-#
-- jack
-- al
 - shelley
-- daniel-routledge
-- veronika
-- george
-- ather
-- mark
 
 #
-- andrew-besford
-- chioma
-- marie
-- david
-- monika
-- ben
-- ahood
+- steven-ziolkowski
+- veronika
 - shruti
+
 
 :::
 

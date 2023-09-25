@@ -38,5 +38,9 @@ for sess_name in sessions:
 
     full_names = df['Full Name'].tolist()
 
+    full_names.append("Stephen Dowsland")
+    full_names.append("Matt Edwards")
+    full_names.append("Fergus McClean")
+
     for person in full_names:
         shutil.copyfile(source_csv, os.path.join(session_path, f'{person}.csv'))

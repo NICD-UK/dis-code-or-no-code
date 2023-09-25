@@ -31,6 +31,14 @@ With both examples we will carry out like for like tasks in Excel and with pytho
   - R
   - Other
 
+Session 1 Files link
+https://tinyurl.com/to-code-one
+https://1drv.ms/f/s!Aih6bFtYB2QLaxYmXdOemKXsUHk?e=BfctY6
+
+Session 2 Files Link
+https://tinyurl.com/to-code-two
+https://1drv.ms/f/s!Aih6bFtYB2QLbNB697KGg68HkFA?e=X9C87V
+
 Tasks
 - [ ] Create spreadsheets containing initial data
 - [x] Littlest jupyter hub setup - 1 VM
