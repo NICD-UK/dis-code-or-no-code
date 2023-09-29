@@ -1,9 +1,12 @@
 ---
-title: To Code or Not to Code
-subtitle: A data journey
-author: Stephen Dowsland
+title: To Code or Not to Code?
+subtitle: A Data Journey
+author: Stephen Dowsland & Fergus McClean
 date: 28 September 2022
 institute: National Innovation Centre for Data
+format:
+  revealjs: 
+    theme: [default, custom.scss]
 ---
 
 ## Overview
@@ -12,6 +15,14 @@ institute: National Innovation Centre for Data
 - Low-code practical (30 mins)
 - Code practical (30 mins)
 - Wrap-up and next steps (10 mins)
+
+## Wifi Details
+
+NETWORK: Data Innovation Showcase
+
+PASSWORD: Innovation23
+
+## {background-iframe="https://excalidraw.com/"}
 
 ## Slido
 
@@ -96,6 +107,8 @@ slido.com
 - Integration
 - Pricing
 
+## {background-iframe="https://excalidraw.com/"}
+
 ## What tools do you use?
 
 <iframe width="1050" height="600" src="https://app.sli.do/event/tJ8qTVJwo2tGcoXXwAVQNd/embed/polls/b9410bb2-4d95-413b-ab8b-1869c6e3cc37"></iframe>
@@ -137,13 +150,16 @@ pd.read_csv('../taxi_tripdata.csv').head(10).to_html(index=False)
 
 ## Connecting to Excel: Session 1
 
-https://tinyurl.com/to-code-one
+[https://tinyurl.com/to-code-one](https://tinyurl.com/to-code-one)
 
 
 ## Connecting to Excel: Session 2
-https://tinyurl.com/to-code-two
+[https://tinyurl.com/to-code-two](https://tinyurl.com/to-code-two)
+
 
 ## Connecting to Jupyter (1) {.smaller}
+
+WIFI NETWORK: Data Innovation Showcase PASSWORD: Innovation23
 
 - tocode.nicd.app
 
@@ -166,7 +182,8 @@ https://tinyurl.com/to-code-two
 - ameer-mahmood
 - stanislav
 - amanda
-- kevin
+- kevin 
+- michael
 
 #
 - birju
@@ -175,10 +192,13 @@ https://tinyurl.com/to-code-two
 - dorathy-yuan-jane
 - james
 - hugh
+- divya
 
 :::
 
 ## Connecting to Jupyter (2) {.smaller}
+
+WIFI NETWORK: Data Innovation Showcase PASSWORD: Innovation23
 
 - tocode.nicd.app
 
@@ -237,6 +257,6 @@ https://tinyurl.com/to-code-two
 - Opportunities for using code? :door: 
 - Do a Data Skills project with us :mortar_board:
 
-## Thanks!
+## {background-image="img/session1_close.png"}
 
-Enjoy the rest of the conference! :smiley:
+## {background-image="img/session2_close.png"}

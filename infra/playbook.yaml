@@ -76,7 +76,9 @@
         --admin monika:tocodedisworkshop \
         --admin ben:tocodedisworkshop \
         --admin ahood:tocodedisworkshop \
-        --admin shruti:tocodedisworkshop
+        --admin shruti:tocodedisworkshop \
+        --admin michael:tocodedisworkshop \
+        --admin divya:tocodedisworkshop
 
       args:
         creates: /etc/systemd/system/jupyterhub.service

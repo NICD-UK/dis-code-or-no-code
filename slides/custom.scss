@@ -1,0 +1,11 @@
+/*-- scss:rules --*/
+
+.reveal .quarto-title-block {
+    .quarto-title-authors{
+        justify-content: flex-start;
+
+        .quarto-title-author{
+            padding: 0;
+        }
+    }
+}

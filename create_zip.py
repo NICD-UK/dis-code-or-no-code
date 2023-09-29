@@ -7,3 +7,4 @@ with ZipFile('./infra/upload.zip', 'w') as zip:
    zip.write('taxi_tripdata.csv')
    zip.write('excel_instructions.md')
    zip.write('trip_data_dictionary.pdf')
+   zip.write('img/line_chart.png')
